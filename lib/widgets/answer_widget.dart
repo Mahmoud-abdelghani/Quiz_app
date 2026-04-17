@@ -18,7 +18,7 @@ class AnswerWidget extends StatelessWidget {
         
         margin: EdgeInsets.symmetric(vertical: 20),
         decoration: BoxDecoration(
-          color: isSelected ? Colors.orange : Colors.white,
+          color: isSelected ? Colors.orange : Colors.black,
           borderRadius: BorderRadius.circular(15),
         ),
         child: SizedBox(
